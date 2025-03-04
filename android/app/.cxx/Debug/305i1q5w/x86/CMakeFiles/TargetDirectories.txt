@@ -1,0 +1,2 @@
+E:/Project Ngoding/tradicine_app/android/app/.cxx/Debug/305i1q5w/x86/CMakeFiles/edit_cache.dir
+E:/Project Ngoding/tradicine_app/android/app/.cxx/Debug/305i1q5w/x86/CMakeFiles/rebuild_cache.dir

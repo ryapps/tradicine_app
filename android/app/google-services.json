@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "866660947546",
+    "project_id": "tradicine-app-e5c76",
+    "storage_bucket": "tradicine-app-e5c76.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:866660947546:android:4afc6067728fa5598bea63",
+        "android_client_info": {
+          "package_name": "com.example.tradicine_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "866660947546-4n1km9qbhulks8k3plrkreiudj9a6t9s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tradicine_app",
+            "certificate_hash": "88839e44ef75bd3309d0d2ff45a6822a75935300"
+          }
+        },
+        {
+          "client_id": "866660947546-c3qbpeud1eut9sotn402hmk616p9k8j0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXIiZNgUQ2QcHD-v4g9u10PVE1N4OsJ04"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "866660947546-c3qbpeud1eut9sotn402hmk616p9k8j0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
