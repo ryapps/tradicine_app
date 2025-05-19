@@ -65,7 +65,7 @@ class _BottomNavState extends State<BottomNav> {
                 Icons.home_filled,
                 size: 27,
               ),
-              label: 'Home',
+              label: 'Beranda',
             ),
             BottomNavigationBarItem(
               activeIcon: Icon(
@@ -76,7 +76,7 @@ class _BottomNavState extends State<BottomNav> {
                 Icons.shopping_cart_outlined,
                 size: 27,
               ),
-              label: 'Cart',
+              label: 'Keranjang',
             ),
             BottomNavigationBarItem(
               activeIcon: Icon(

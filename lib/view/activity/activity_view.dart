@@ -24,9 +24,9 @@ class ActivityView extends StatelessWidget {
             unselectedLabelColor: Colors.grey,
             indicatorColor: Theme.of(context).primaryColor,
             tabs: [
-              Tab(text: 'Pending'),
-              Tab(text: 'Completed'),
-              Tab(text: 'Canceled'),
+              Tab(text: 'Tertunda'),
+              Tab(text: 'Selesai'),
+              Tab(text: 'Dibatalkan'),
             ],
           ),
         ),
