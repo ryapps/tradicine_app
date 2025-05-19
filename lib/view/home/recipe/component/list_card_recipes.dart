@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:tradicine_app/components/loading/shimmer_loading.dart';
 import 'package:tradicine_app/models/recipe/recipe_model.dart';
 import 'package:tradicine_app/services/recipe_service.dart';
-import 'package:tradicine_app/view/home/components/card_recipe.dart';
+import 'package:tradicine_app/view/home/recipe/component/card_recipe.dart';
 
 class RecipeList extends StatelessWidget {
   const RecipeList({Key? key}) : super(key: key);

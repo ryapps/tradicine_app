@@ -4,7 +4,7 @@ import 'package:tradicine_app/components/loading/shimmer_loading.dart';
 import 'package:tradicine_app/components/text/label_text.dart';
 import 'package:tradicine_app/models/category/product_categories.dart';
 import 'package:tradicine_app/services/category_service.dart';
-import 'package:tradicine_app/view/home/components/recommend_product.dart';
+import 'package:tradicine_app/view/home/product/component/recommend_product.dart';
 
 class RecommendProductSection extends StatefulWidget {
   @override

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:tradicine_app/models/product/product_model.dart';
 import 'package:tradicine_app/services/product_service.dart';
-import 'package:tradicine_app/view/home/components/card_product.dart';
+import 'package:tradicine_app/view/home/product/component/card_product.dart';
 
 class BestSellerProduct extends StatefulWidget {
   const BestSellerProduct({super.key});

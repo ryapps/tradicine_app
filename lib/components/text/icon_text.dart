@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+import 'package:flutter/material.dart'; // Ensure dart:core is available (default in Dart)
 
 class IconText extends StatelessWidget {
   final String text;
@@ -22,7 +22,7 @@ class IconText extends StatelessWidget {
         Text(
           text,
           style: TextStyle(
-            fontSize: 16,
+            fontSize: 14,
             fontWeight: FontWeight.normal,
             color: color,
           ),

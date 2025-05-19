@@ -6,12 +6,13 @@ import 'package:tradicine_app/view/activity/activity_view.dart';
 import 'package:tradicine_app/view/admin/dashboard_admin.dart';
 import 'package:tradicine_app/view/auth/login.dart';
 import 'package:tradicine_app/view/auth/register.dart';
-import 'package:tradicine_app/view/cart/chart_view.dart';
-import 'package:tradicine_app/view/chat/chat_view.dart';
+import 'package:tradicine_app/view/cart/cart_view.dart';
+import 'package:tradicine_app/view/chat/chat_list_view.dart';
 import 'package:tradicine_app/view/home/home.dart';
 import 'package:tradicine_app/view/onboarding/onboarding_widget.dart';
 import 'package:tradicine_app/view/splash_screen.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:tradicine_app/view/transaction/checkout_view.dart';
 
 void main() async {
   WidgetsFlutterBinding
@@ -38,7 +39,7 @@ class MyApp extends StatelessWidget {
         bottomNavigationBarTheme:
             BottomNavigationBarThemeData(backgroundColor: Colors.white),
         textTheme: GoogleFonts.latoTextTheme(),
-        primaryColor: Color.fromRGBO(62, 177, 74, 1),
+        primaryColor: Color.fromRGBO(62, 177, 74, 1).withOpacity(1),
         colorScheme: ColorScheme.fromSwatch().copyWith(
             secondary: Color.fromRGBO(158, 215, 164, 1),
             surface: Color.fromRGBO(127, 127, 127, 1),
@@ -59,10 +60,10 @@ class MyApp extends StatelessWidget {
         '/register':(context) => RegisterView(),
         '/home' : (context) => HomeView(),
         '/cart': (context) => CartView(),
-        '/chat': (context) => ChatView(),
+        '/chat': (context) => ChatListView(),
         '/activity': (context) => ActivityView(),
         '/onboarding': (context) => OnBoardingView(),
-        '/admin': (context) => DashboardAdmin()
+        '/admin': (context) => DashboardAdmin(),
       },
     );
   }

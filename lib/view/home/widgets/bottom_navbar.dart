@@ -48,6 +48,7 @@ class _BottomNavState extends State<BottomNav> {
           showUnselectedLabels: true,
           showSelectedLabels: true,
           selectedItemColor: Colors.white,
+          selectedLabelStyle: const TextStyle(fontWeight: FontWeight.bold),
           selectedFontSize: 12.0,
           unselectedFontSize: 12.0,
           currentIndex: widget.page,
